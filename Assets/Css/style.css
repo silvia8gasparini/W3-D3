@@ -10,7 +10,7 @@
 
 body {
     background-image: url(../img/yoda.jpg);
-    background-size: 100%;
+    background-size: 94%;
     width: 1200px;
     font-family: 'Honk';
     justify-content: center;
@@ -79,7 +79,7 @@ h1 {
 }
 
 #tasks {
-    background-color: #ffffff;
+ 
     padding: 0px 20px;
     border-radius: 10px;
     width: 100%;
@@ -98,7 +98,7 @@ h1 {
     cursor: pointer;
   }
   .task span {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Electrolize';
     font-size: 15px;
     font-weight: 400;
   }
