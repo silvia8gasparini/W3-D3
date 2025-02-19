@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Honk&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(../img/yoda.jpg);
+    background-size: 100%;
+    width: 1200px;
+    font-family: 'Honk';
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+main{
+    padding: 20px 60px 30px 60px;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Electrolize';
+    color: black;
+
+}
+
+
+.newadds{
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-family: 'Honk';
+    font-size: 2rem;
+    margin: 40px 0px 20px 0px;
+}
+
+
+#taskinput {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+input{
+    font-family: 'Electrolize';
+    width:70%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 15px;
+    border: 0.5px solid black;
+    background: linear-gradient(red, yellow);
+    color: rgb(3, 2, 2);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Electrolize';
+    font-weight: bold;
+
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+
+
+li.completed {
+    background-color: beige;
+    text-decoration: line-through;
+}
+
+button.delb {
+    background-color: cadetblue;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
