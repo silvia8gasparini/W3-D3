@@ -34,12 +34,13 @@ main{
 
 .container{
     width: 400px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 94));
 
 }
 
@@ -52,7 +53,7 @@ h1 {
 
 #newTask {
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 0 auto;
 }
 
 
@@ -79,17 +80,17 @@ h1 {
 }
 
 #tasks {
- 
     padding: 0px 20px;
     border-radius: 10px;
     width: 100%;
     position: relative;
   }
+
   .task {
-    background: linear-gradient(rgb(243, 240, 240), rgb(255, 255, 94));
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 189, 151));
     height: 50px;
-    margin-bottom: 8px;
-    padding: 5px 10px;
+    margin: 10px 0px 10px 0px;
+    padding: 20px 10px;
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
@@ -100,7 +101,8 @@ h1 {
   .task span {
     font-family: 'Electrolize';
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 400px;
+
   }
   .task button {
     background-color: #e41414;
